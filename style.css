@@ -117,7 +117,7 @@ footer{
 
 .quote{
     background-color: #e5e7eb ;
-    padding: 90px 250px;
+    padding: 90px 450px;
 }
 
 .quote #phrase{
@@ -130,4 +130,37 @@ footer{
 .quote #thor{
     text-align: right;
     font-size: 18px;
+}
+
+.last{
+    padding: 90px ;
+    
+}
+
+
+.last .blue-box{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 60px;
+    width: 60%;
+    border: none;
+    border-radius: 8px;
+    margin: 0 230px;
+}
+   
+
+.blue-box button{
+    flex:none;
+    height: 30px;
+    width: 80px;
+    color: #e5e7eb;
+    border-color:white;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.blue-box .cta{
+    color:#e5e7eb;
 }
