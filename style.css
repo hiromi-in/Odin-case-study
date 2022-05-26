@@ -1,6 +1,5 @@
 body{
     font-family: Roboto, sans-serif;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -28,6 +27,11 @@ header ul {
 header ul li {
     margin-right: 18px; 
 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
 }
 
 .upper{
@@ -64,7 +68,7 @@ header ul li {
     font-weight: extra-bold;
     color: #f9faf8;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .intro p{
@@ -72,4 +76,40 @@ header ul li {
     font-size: 24px;
     margin: 0 40px 30px 0;
 
+}
+
+.middle{
+    padding:80px 150px 150px 150px;
+}
+
+#h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2973;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.middle .icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px 30px 100px;
+}
+
+.middle .icons img{
+    height:80px;
+    width:80px;
+    margin-left: 60px;
+}
+
+.icons p{
+    margin-right: 80px;
+    text-align: center;
+}
+
+footer{
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    color:#f9faf8
 }
