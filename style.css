@@ -107,9 +107,27 @@ main{
     text-align: center;
 }
 
+
 footer{
     background-color: #1f2937;
     padding: 20px;
     text-align: center;
     color:#f9faf8
+}
+
+.quote{
+    background-color: #e5e7eb ;
+    padding: 90px 250px;
+}
+
+.quote #phrase{
+    font-size: 36px; 
+    color: #1f2937;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote #thor{
+    text-align: right;
+    font-size: 18px;
 }
